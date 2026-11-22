@@ -1,0 +1,20 @@
+## Interface: 16001
+## Title: Free Auras
+## Notes: Ready-made aura packs for ForeverAuras, installed in one click, with the pictures they use. /fauras
+## Category: Combat
+## Author: DecardCain
+## Version: 1.0.0
+## IconTexture: Interface\AddOns\FreeAuras\Media\icon
+## OptionalDeps: ForeverAuras, FreeHub
+## SavedVariables: FreeAurasDB
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+Libs\LibFreeUI-1.0\LibFreeUI-1.0.lua
+
+Packs.lua
+Core.lua
+UI.lua
+Minimap.lua
