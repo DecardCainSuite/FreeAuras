@@ -1,10 +1,11 @@
 ## Free Auras 1.1.0
 
-- **Shaman pack 1.0.0** (new), one aura in the middle of the screen:
+- **Shaman pack 1.0.1** (new), one aura in the middle of the screen:
   - Stormstrike as a big hammer: its carved lines fill with lightning while it recharges, then a burst and the hammer of your weapon imbue (Windfury, Flametongue, Frostbrand, Rockbiter), or a lightning hammer without one;
   - Lightning Shield or Water Shield: one small orb per charge, around the hammer or in a row (left, below, right), the order they go in your choice;
   - Maelstrom Weapon: tornadoes in an arc above the hammer (left, right, left, right), the big one in the middle at 5 stacks with a storm around the hammer;
   - diagonal or upright hammer, sizes and distances in the aura's options, and a Demo mode that plays a fake fight.
+  - shield charges and Maelstrom stacks also in combat, when the game hides the numbers from addons.
 
 ## Free Auras 1.0.0
 
