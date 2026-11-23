@@ -1,6 +1,6 @@
 ## Free Auras 1.1.0
 
-- **Shaman pack 1.0.6** (new), one aura in the middle of the screen:
+- **Shaman pack 1.0.7** (new), one aura in the middle of the screen:
   - Stormstrike as a big hammer in the look of your weapon imbue (Windfury, Flametongue, Frostbrand, Rockbiter, or lightning without one): grey while it recharges, its lines, eyes, mouth and cracks filling with colour from the handle up, then a burst when it is ready again (also after an Improved Stormstrike reset);
   - Lightning Shield or Water Shield: one small orb per charge, around the hammer or in a row (left, below, right), the order they go in your choice;
   - Maelstrom Weapon: small clouds in an arc above the hammer (left, right, left, right), the storm cloud in the middle at 5 stacks with lightning around the hammer;
