@@ -8,4 +8,5 @@
   - **Priest**: Power Word: Shield as a bubble that cracks as it runs out, Weakened Soul as a dark ring, your damage over time on one scale, who has your Shield and your Renew, the main row and utility;
   - **Warlock**: your damage over time as burning fuses on one time scale (red when less than a cast is left), soul shards with Healthstone and Soulstone, mana, your demon, Nightfall and Decimation lighting their spell;
   - **Druid**: forms to click, a column that follows your form (combo points or Lacerate as strokes, the power of the form with your real mana under it, leaves for the form changes your mana still allows), Clearcasting, Nature's Grace and Eclipse on the sides.
+- **Range** for the ranged classes (Hunter, Mage, Priest, Warlock): the distance to your enemy target, green in range of your main spell, red out of range (orange in the hunter's dead zone), and icons turning red when their spell is out of range; both can be turned off.
 - In combat, when the game hides numbers from addons, the packs only hand them to the game (bars, curves) and follow your own casts for cooldowns and effects.
