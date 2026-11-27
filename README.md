@@ -1,7 +1,7 @@
 <p align="center"><img src="curseforge/images/FreeAuras-logo-400.png" width="120" alt="Free Auras logo"></p>
 <h1 align="center">Free Auras</h1>
-<p align="center">Ready-made ForeverAuras packs, installed in one click: a clean rogue column with combo marks, energy, poisons, buffs and bleeds on one time scale, and cooldowns.</p>
-<p align="center"><a href="https://www.curseforge.com/wow/addons/free-auras"><b>Download on CurseForge</b></a> · version <b>1.0.0</b> · WoW Forever (1.60.1) · <code>/fauras</code></p>
+<p align="center">Ready-made ForeverAuras packs, installed in one click: a clean rogue column, and a shaman storm with Stormstrike as a spirit wolf, shield orbs and Maelstrom clouds.</p>
+<p align="center"><a href="https://www.curseforge.com/wow/addons/free-auras"><b>Download on CurseForge</b></a> · version <b>1.1.0</b> · WoW Forever (1.60.1) · <code>/fauras</code></p>
 
 ![Free Auras](curseforge/images/freeauras_1.png)
 
@@ -37,6 +37,16 @@ A compact column under your character, 200 pixels wide, everything lined up:
 - Optional: Slice and Dice as a stylised lightning bolt.
 - Only the spells you know are shown: it works from level 1.
 
+## Shaman pack
+
+One aura in the middle of the screen, for Enhancement:
+
+- **Stormstrike as a spirit wolf** in the colours of your weapon imbue (Windfury, Flametongue, Frostbrand, Rockbiter, or a spectral wolf without one), always in full colour. The lightning under it turns from grey to blue, left to right, while Stormstrike recharges, and flashes once when it is ready again (Improved Stormstrike resets included). The wolf follows an imbue cast in combat too.
+- **Lightning Shield or Water Shield**: one small orb per charge with little arcs of lightning, turning around the wolf or in a row (left, below, right); you choose which charge goes first.
+- **Maelstrom Weapon**: small clouds in an arc above the wolf (left, right, left, right), then the storm cloud in the middle at 5 stacks, with a storm around the wolf (both the storm and the burst at 5 can be turned off).
+- **In combat too**, when the game hides charges and stacks from addons: each orb and cloud is shown by a native aura slot that the game fills itself.
+- Sizes, distances, turning direction, cloud direction and a **Demo** mode (a fake fight) in the aura's Custom Options.
+
 ## Requirements
 
 - **ForeverAuras** (the aura addon of WoW Forever).
@@ -59,7 +69,7 @@ Addons for WoW Forever that share the same look, profiles and a single minimap b
 | <img src="https://raw.githubusercontent.com/DecardCainSuite/FreeMinimap/main/curseforge/images/FreeMinimap-logo-400.png" width="36"> | **[Free Minimap](https://github.com/DecardCainSuite/FreeMinimap)** — A rectangular minimap of any size, with a region map drawn from the game's own terrain tiles around you. | [CurseForge](https://www.curseforge.com/wow/addons/freeminimap) |
 | <img src="https://raw.githubusercontent.com/DecardCainSuite/FreeGuild/main/curseforge/images/FreeGuild-logo-400.png" width="36"> | **[Free Guild](https://github.com/DecardCainSuite/FreeGuild)** — Guild roster and rank tool for guild masters and officers: filters, bulk ranks, rules that promote for you, stats, raid rosters with attendance, guild info and notes. | [CurseForge](https://www.curseforge.com/wow/addons/freeguild) |
 | <img src="https://raw.githubusercontent.com/DecardCainSuite/FreeLFG/main/curseforge/images/FreeLFG-logo-400.png" width="36"> | **[Free LFG](https://github.com/DecardCainSuite/FreeLFG)** — The group finder as a compact, sortable table: leader, roles, free slots, one-click whisper from a template, and live filters you write yourself. | [CurseForge](https://www.curseforge.com/wow/addons/freelfg) |
-| <img src="https://raw.githubusercontent.com/DecardCainSuite/FreeAuras/main/curseforge/images/FreeAuras-logo-400.png" width="36"> | **[Free Auras](https://github.com/DecardCainSuite/FreeAuras)** (this one) — Ready-made ForeverAuras packs, installed in one click: a clean rogue column with combo marks, energy, poisons, buffs and bleeds on one time scale, and cooldowns. | [CurseForge](https://www.curseforge.com/wow/addons/free-auras) |
+| <img src="https://raw.githubusercontent.com/DecardCainSuite/FreeAuras/main/curseforge/images/FreeAuras-logo-400.png" width="36"> | **[Free Auras](https://github.com/DecardCainSuite/FreeAuras)** (this one) — Ready-made ForeverAuras packs, installed in one click: a clean rogue column, and a shaman storm with Stormstrike as a spirit wolf, shield orbs and Maelstrom clouds. | [CurseForge](https://www.curseforge.com/wow/addons/free-auras) |
 
 ## Changelog
 

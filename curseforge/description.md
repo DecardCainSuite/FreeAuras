@@ -3,7 +3,7 @@
 ## Fields
 
 - **Project name:** Free Auras
-- **Summary:** Ready-made ForeverAuras packs, installed in one click: a clean rogue column with combo marks, energy, poisons, buffs and bleeds on one time scale, and cooldowns.
+- **Summary:** Ready-made ForeverAuras packs, installed in one click: a clean rogue column, and a shaman storm with Stormstrike as a spirit wolf, shield orbs and Maelstrom clouds.
 - **Main category:** Combat
 - **Extra categories:** Buffs & Debuffs
 - **Logo:** `images/FreeAuras-logo-1024.png` (the 400 px version is there if needed)
@@ -42,6 +42,16 @@ A compact column under your character, 200 pixels wide, everything lined up:
 - **Weapons and poisons**: your two weapons side by side with their poison (charges, time left); a weapon without poison is simply greyed out. Left click lists the poisons in your bags and applies the one you pick; right click lists the weapons for that hand. **Both work in combat.**
 - Optional: Slice and Dice as a stylised lightning bolt.
 - Only the spells you know are shown: it works from level 1.
+
+## Shaman pack
+
+One aura in the middle of the screen, for Enhancement:
+
+- **Stormstrike as a spirit wolf** in the colours of your weapon imbue (Windfury, Flametongue, Frostbrand, Rockbiter, or a spectral wolf without one), always in full colour. The lightning under it turns from grey to blue, left to right, while Stormstrike recharges, and flashes once when it is ready again (Improved Stormstrike resets included). The wolf follows an imbue cast in combat too.
+- **Lightning Shield or Water Shield**: one small orb per charge with little arcs of lightning, turning around the wolf or in a row (left, below, right); you choose which charge goes first.
+- **Maelstrom Weapon**: small clouds in an arc above the wolf (left, right, left, right), then the storm cloud in the middle at 5 stacks, with a storm around the wolf (both the storm and the burst at 5 can be turned off).
+- **In combat too**, when the game hides charges and stacks from addons: each orb and cloud is shown by a native aura slot that the game fills itself.
+- Sizes, distances, turning direction, cloud direction and a **Demo** mode (a fake fight) in the aura's Custom Options.
 
 ## Requirements
 
