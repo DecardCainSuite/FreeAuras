@@ -1,7 +1,7 @@
 <p align="center"><img src="curseforge/images/FreeAuras-logo-400.png" width="120" alt="Free Auras logo"></p>
 <h1 align="center">Free Auras</h1>
-<p align="center">Ready-made ForeverAuras packs, installed in one click: a clean rogue column, and a shaman storm with Stormstrike as a spirit wolf, shield orbs and Maelstrom clouds.</p>
-<p align="center"><a href="https://www.curseforge.com/wow/addons/free-auras"><b>Download on CurseForge</b></a> · version <b>1.1.0</b> · WoW Forever (1.60.1) · <code>/fauras</code></p>
+<p align="center">Ready-made ForeverAuras packs for every class, installed in one click, with a live preview of each pack whatever your class.</p>
+<p align="center"><a href="https://www.curseforge.com/wow/addons/free-auras"><b>Download on CurseForge</b></a> · version <b>1.2.0</b> · WoW Forever (1.60.1) · <code>/fauras</code></p>
 
 ![Free Auras](curseforge/images/freeauras_1.png)
 
@@ -9,7 +9,9 @@
 
 <table>
 <tr>
-<td width="100%" valign="top"><img src="curseforge/images/freeauras_2.png" alt="The rogue pack, one column"><br><b>The rogue pack, one column</b><br><sub>Poisons and weapons, combo marks, energy with the Shank preview, buffs and bleeds on one time scale, cooldowns with their effects.</sub></td>
+<td width="33%" valign="top"><img src="curseforge/images/freeauras_2.png" alt="The rogue pack, one column"><br><b>The rogue pack, one column</b><br><sub>Poisons and weapons, combo marks, energy with the Shank preview, buffs and bleeds on one time scale, cooldowns with their effects.</sub></td>
+<td width="33%" valign="top"><img src="curseforge/images/freeauras_3.png" alt="Melee packs"><br><b>Melee packs</b><br><sub>Warrior, Paladin, Druid, Rogue column and Shaman column.</sub></td>
+<td width="33%" valign="top"><img src="curseforge/images/freeauras_4.png" alt="Ranged and healer packs, with range"><br><b>Ranged and healer packs, with range</b><br><sub>Hunter, Mage, Priest and Warlock, with the distance to your target.</sub></td>
 </tr>
 </table>
 
@@ -17,10 +19,29 @@ Aura packs for **ForeverAuras**, ready to use. Pick a pack, click **Install**, c
 
 ## Installing and updating
 
-- `/fauras` (or the Free Hub button) opens the list of packs, your class first.
+- `/fauras` (or the Free Hub button) opens the packs window: a tile per class, your class first.
 - **Install** opens ForeverAuras' own import window: you see what comes in and click Import. Nothing is installed behind your back.
 - When a pack gets better, the addon tells you once at login and the button becomes **Update**: ForeverAuras' update window lets you keep your own positions and settings.
 - Every aura has its settings in ForeverAuras, **Custom Options** tab.
+
+## Class packs
+
+One aura per pack, a column under your character, with a **Demo** mode that plays a fake fight:
+
+- **Warrior**: stances to click, Sunder Armor as strokes, rage showing what a queued Heroic Strike or Cleave will take, swing timers, Overpower, Revenge and Execute lighting up, Battle Shout.
+- **Paladin**: your seal in a medallion with your Judgement on the target, mana with the 5-second rule, swing, auras to click.
+- **Hunter**: Auto Shot as a bow drawn tight, red where a cast would clip it; range with the dead zone, stings and Hunter's Mark on one time scale, pet, aspects to click, ammo.
+- **Mage**: Forever's arcane charges as runes, mana with the 5-second rule, procs lighting their spell, range.
+- **Priest**: Power Word: Shield as a bubble that cracks, Weakened Soul, your damage over time, who has your Shield and your Renew, range.
+- **Warlock**: damage over time as burning fuses on one time scale, soul shards, Healthstone and Soulstone, range.
+- **Druid**: forms to click, a column that follows your form (combo points or Lacerate as strokes, mana leaves for the shifts you can still afford).
+- **Rogue column** and **Shaman column**: combo points or Maelstrom Weapon as strokes, energy or mana, swing, buffs, bleeds and shocks on one time scale.
+- **Range** for the ranged classes: distance to your target, red out of range of your main spell, icons turning red when out of range.
+- **In combat**, when the game hides numbers from addons, the packs only hand them to the game and follow your own casts.
+
+## Preview
+
+Each pack card has a **Preview** button (or `/fauras preview <pack>`): the pack plays its Demo on your screen, whatever your class, without installing it. Drag its bar to move it, click it to close.
 
 ## Rogue pack
 
@@ -69,7 +90,7 @@ Addons for WoW Forever that share the same look, profiles and a single minimap b
 | <img src="https://raw.githubusercontent.com/DecardCainSuite/FreeMinimap/main/curseforge/images/FreeMinimap-logo-400.png" width="36"> | **[Free Minimap](https://github.com/DecardCainSuite/FreeMinimap)** — A rectangular minimap of any size, with a region map drawn from the game's own terrain tiles around you. | [CurseForge](https://www.curseforge.com/wow/addons/freeminimap) |
 | <img src="https://raw.githubusercontent.com/DecardCainSuite/FreeGuild/main/curseforge/images/FreeGuild-logo-400.png" width="36"> | **[Free Guild](https://github.com/DecardCainSuite/FreeGuild)** — Guild roster and rank tool for guild masters and officers: filters, bulk ranks, rules that promote for you, stats, raid rosters with attendance, guild info and notes. | [CurseForge](https://www.curseforge.com/wow/addons/freeguild) |
 | <img src="https://raw.githubusercontent.com/DecardCainSuite/FreeLFG/main/curseforge/images/FreeLFG-logo-400.png" width="36"> | **[Free LFG](https://github.com/DecardCainSuite/FreeLFG)** — The group finder as a compact, sortable table: leader, roles, free slots, one-click whisper from a template, and live filters you write yourself. | [CurseForge](https://www.curseforge.com/wow/addons/freelfg) |
-| <img src="https://raw.githubusercontent.com/DecardCainSuite/FreeAuras/main/curseforge/images/FreeAuras-logo-400.png" width="36"> | **[Free Auras](https://github.com/DecardCainSuite/FreeAuras)** (this one) — Ready-made ForeverAuras packs, installed in one click: a clean rogue column, and a shaman storm with Stormstrike as a spirit wolf, shield orbs and Maelstrom clouds. | [CurseForge](https://www.curseforge.com/wow/addons/free-auras) |
+| <img src="https://raw.githubusercontent.com/DecardCainSuite/FreeAuras/main/curseforge/images/FreeAuras-logo-400.png" width="36"> | **[Free Auras](https://github.com/DecardCainSuite/FreeAuras)** (this one) — Ready-made ForeverAuras packs for every class, installed in one click, with a live preview of each pack whatever your class. | [CurseForge](https://www.curseforge.com/wow/addons/free-auras) |
 
 ## Changelog
 

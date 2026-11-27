@@ -3,7 +3,7 @@
 ## Notes: Ready-made aura packs for ForeverAuras, installed in one click, with the pictures they use. /fauras
 ## Category: Combat
 ## Author: DecardCain
-## Version: 1.1.0
+## Version: 1.2.0
 ## X-Curse-Project-ID: 1824739
 ## IconTexture: Interface\AddOns\FreeAuras\Media\icon
 ## OptionalDeps: ForeverAuras, FreeHub
