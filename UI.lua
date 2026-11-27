@@ -60,9 +60,15 @@ local function PackCard(parent, pack)
     card.again = kit:Button(card, "Reinstall", 150, false, function() ns.Install(pack); kit:Refresh() end)
     card.again:SetPoint("TOPRIGHT", -18, -100)
     card.again.tip = "Open the import again (to restore the pack, or after deleting some of its auras)."
+    -- preview: the pack in Demo mode, for any class, without installing it
+    card.preview = kit:Button(card, "Preview", 150, false, function() ns.Preview(pack) end)
+    card.preview:SetPoint("TOPRIGHT", -18, -134)
+    card.preview.tip = "See the pack moving (Demo mode), whatever your class. Click again, or on the bar over it, to close it."
+    card.preview:SetShown(ns.CanPreview(pack))
 
     function card.Update()
         local status, have = ns.Status(pack)
+        if card.preview:IsShown() then card.preview.label:SetText(ns.PreviewKey() == pack.key and "Stop preview" or "Preview") end
         sub:SetText("Version " .. pack.version .. "  ·  " .. (pack.count or 0) .. " auras  ·  for " .. (pack.classLabel or pack.title))
         tag:SetShown(ns.PlayerClass() == pack.class)
         if status == "nofa" then
@@ -89,7 +95,7 @@ local function DoBuild()
 
     -- ---------------------------------------------------- packs (scrolls when there are many)
     local page = pages.packs
-    local hint = kit:Hint(page, "Each pack opens in ForeverAuras' own import window: check it and click Import. An update keeps your positions if you tick it there.", PAD, -2, kit.W - 2 * PAD)
+    local hint = kit:Hint(page, "Each pack opens in ForeverAuras' own import window: check it and click Import. Preview shows a pack moving, whatever your class.", PAD, -2, kit.W - 2 * PAD)
     local scroll = CreateFrame("ScrollFrame", nil, page)
     scroll:SetPoint("TOPLEFT", PAD, -34); scroll:SetPoint("BOTTOMRIGHT", -PAD, 4)
     local list = CreateFrame("Frame", nil, scroll)

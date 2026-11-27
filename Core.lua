@@ -112,8 +112,17 @@ SlashCmdList.FREEAURAS = function(msg)
         ns.Print("no pack called \"" .. key .. "\". Packs: " .. ns.PackKeys())
         return
     end
+    local pk = msg:match("^preview%s*(%S*)$")
+    if pk then
+        if pk == "" or pk == "off" then ns.StopPreview() return end
+        for _, pack in ipairs(ns.packs) do
+            if pack.key == pk then ns.Preview(pack) return end
+        end
+        ns.Print("no pack called \"" .. pk .. "\". Packs: " .. ns.PackKeys())
+        return
+    end
     if msg == "help" or msg == "?" then
-        ns.Print("/fauras = the packs window. /fauras install <pack> = open the import of a pack (" .. ns.PackKeys() .. ").")
+        ns.Print("/fauras = the packs window. /fauras install <pack> = open the import of a pack, /fauras preview <pack> = see it moving, /fauras preview off (" .. ns.PackKeys() .. ").")
         return
     end
     if ns.Toggle then ns.Toggle() end

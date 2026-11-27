@@ -17,5 +17,6 @@ Libs\LibFreeUI-1.0\LibFreeUI-1.0.lua
 
 Packs.lua
 Core.lua
+Preview.lua
 UI.lua
 Minimap.lua
